@@ -73,7 +73,7 @@
 
 /* Heading */
 .task-title,
-.label[for="new-task"] {
+.task-title__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,7 +83,7 @@
   text-transform: uppercase;
 }
 
-.input[type="text"] {
+.input__type__text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,17 +96,17 @@
   color: #888;
 }
 
-.input[type="text"]:focus {
+.input__type__text:focus {
   color: #333;
 }
 
 /* New Task */
-.label[for="new-task"] {
+.task-title__label {
   display: block;
   margin: 0 0 20px;
 }
 
-.input#new-task {
+.new-task {
   width: 318px;
 }
 
@@ -124,7 +124,7 @@
   vertical-align: middle;
 }
 
-.list-item > .input[type="checkbox"] {
+.list-item > .input-checkbox {
   margin: 0 10px;
 }
 
